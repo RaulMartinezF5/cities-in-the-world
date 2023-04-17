@@ -4,9 +4,7 @@ Utilizando Bootstrap o Taildwind reproduce el sketch que encontrará en el enlac
 
 
 
-## Project Setup
-
-```sh
+## Install
 npm install
 npm install -D bootstrap
 npm install -D sass
