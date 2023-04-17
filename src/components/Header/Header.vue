@@ -7,7 +7,7 @@ import Banner from './Banner.vue';
     <div class="wrapper">
       <nav class="navbar navbar-expand-lg bg-light border">
         <div class="container-fluid separate-container">
-          <a class="navbar-brand" href="#">Cities in the world</a>
+          <h1 class="navbar-brand" href="#">Cities in the world</h1>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,6 +35,10 @@ import Banner from './Banner.vue';
 </template>
 <style lang="scss" scoped>
 @use '../src/assets/main' as *;
+
+.navbar-brand{
+  font-size: large;
+}
 .separate-container{
     @include FlexDisplay(row, space-between, center, 100%, auto);
 }
